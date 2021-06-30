@@ -43,6 +43,19 @@ body{
 }
 
 
+
+
+.searchmenu{
+    position: absolute;
+    bottom: -650px;
+    width:100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.searchmenu img{
+    border-radius: 8px;
+}
+
 .windowsicon{
     position: absolute;
     align-self: center;
