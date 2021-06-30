@@ -1,0 +1,80 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    zoom:75%;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+.taskbar{
+    width: 100%;
+    height: 45px;
+    background:#e3ecf9;
+    position: absolute;
+    bottom: 0;
+    z-index: 110px;
+    display: flex;
+    ;
+    
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    height: 85%;
+    align-self: center;
+}
+
+
+.startmenu{
+    position: absolute;
+    bottom: -650px;
+    width:100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.startmenu img{
+    border-radius: 8px;
+}
+
+
+.windowsicon{
+    position: absolute;
+    align-self: center;
+    display: flex;
+    height: 60%;   
+    display: flex;
+    left: 700px;
+    z-index: 110;
+    
+}
+
+
+
+.searchicon{
+    position: absolute;
+    align-self: center;
+    display: flex;
+    height: 60%;   
+    display: flex;
+    left: 750px;
+    z-index: 110;
+    
+}
+
+.name{
+    color:rgb(0, 0, 0);
+    position: relative;
+    
+}
+
+.icons{
+    left: 0px;
+    margin: 25px;
+    position: absolute;
+}
