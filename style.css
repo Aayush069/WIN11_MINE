@@ -56,6 +56,20 @@ body{
     border-radius: 8px;
 }
 
+
+.newsbar{
+    position: absolute;
+    bottom: -825px;
+    width:100%;
+    
+    text-align:left;
+    margin: 5px;
+    transition: all 0.3s ease-in;
+}
+.newsbar img{
+    border-radius: 6px;
+}
+
 .windowsicon{
     position: absolute;
     align-self: center;
@@ -80,6 +94,17 @@ body{
     
 }
 
+
+.newsicon{
+    position: absolute;
+    align-self: center;
+    display: flex;
+    height: 60%;   
+    display: flex;
+    left: 800px;
+    z-index: 110;
+    
+}
 .name{
     color:rgb(0, 0, 0);
     position: relative;

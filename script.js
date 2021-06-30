@@ -8,6 +8,7 @@ windowsicon.addEventListener('click',()=>{
     else{
         startmenu.style.bottom  = '50px'
         searchmenu.style.bottom='-655px'
+        newsbar.style.bottom = '-825px'
         
     }
 })
@@ -25,5 +26,24 @@ searchicon.addEventListener('click',()=>{
     else{
         searchmenu.style.bottom  = '50px'
         startmenu.style.bottom='-655px'
+        newsbar.style.bottom = '-825px'
+    }
+})
+
+
+
+let newsicon=document.getElementsByClassName('newsicon')[0]
+let newsbar=document.getElementsByClassName('newsbar')[0]
+
+newsicon.addEventListener('click',()=>{
+    if (newsbar.style.bottom == '40px'){
+        newsbar.style.bottom = '-825px'
+        
+    }
+    else{
+        newsbar.style.bottom  = '40px'
+        searchmenu.style.bottom='-655px'
+        startmenu.style.bottom='-655px'
+        
     }
 })
