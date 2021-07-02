@@ -47,3 +47,19 @@ newsicon.addEventListener('click',()=>{
         
     }
 })
+
+
+let libicon=document.getElementsByClassName('libicon')[0]
+let libbar=document.getElementsByClassName('libbar')[0]
+
+libicon.addEventListener('click',()=>{
+    if (libbar.style.bottom == '150px'){
+        libbar.style.bottom = '-655px'
+        
+    }
+    else{
+        libbar.style.bottom  = '150px'     
+    }
+})
+
+

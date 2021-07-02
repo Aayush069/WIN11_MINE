@@ -77,9 +77,12 @@ body{
     height: 60%;   
     display: flex;
     left: 700px;
-    z-index: 110;
-    
+    z-index: 110;   
 }
+.windowsicon:hover{
+    transform:scale(1.1)
+}
+
 
 
 
@@ -91,8 +94,11 @@ body{
     display: flex;
     left: 750px;
     z-index: 110;
-    
 }
+.searchicon:hover{
+    transform:scale(1.1)
+}
+
 
 
 .newsicon{
@@ -102,9 +108,54 @@ body{
     height: 60%;   
     display: flex;
     left: 800px;
+    z-index: 110;  
+}
+.newsicon:hover{
+    transform:scale(1.1)
+}
+
+
+.libicon{
+    position: absolute;
+    align-self: center;
+    display: flex;
+    height: 60%;   
+    display: flex;
+    left: 850px;
     z-index: 110;
     
 }
+.libicon:hover{
+    transform:scale(1.1)
+}
+
+.libbar{
+    position: absolute;
+    bottom: -655px;
+    width:100%;
+    left: 100px;
+    text-align:center;
+    
+    transition: all 0.1s ease-out ;
+}
+.libbar img{
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .name{
     color:rgb(0, 0, 0);
     position: relative;
