@@ -2,6 +2,8 @@
     
     margin: 0;
     padding: 0;
+    font-family: Segoe UI;
+    font-size: small;
 }
 
 body{
@@ -90,7 +92,7 @@ body{
     position: absolute;
     align-self: center;
     display: flex;
-    height: 60%;   
+    height: 60%;
     display: flex;
     left: 750px;
     z-index: 110;
@@ -145,25 +147,47 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.name{
-    color:rgb(0, 0, 0);
-    position: relative;
-    
+.desktop{
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.icons{
-    left: 0px;
-    margin: 25px;
+
+
+.chromeicon:hover{
+    transform:scale(1.1);
+}
+.chromebar{
     position: absolute;
+    
+    
+    left: -1600px;
+    width:100%;
+    
+
+    text-align:center;
+    
+    transition: all 0.3s ease-in;
 }
+.chromebar img{
+    border-radius: 8px;
+}
+.chromeicon{
+    position: absolute;
+    z-index: 110;
+}
+.name{
+    position: relative;
+    color: rgb(0,0,0);
+    text-align: center;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
