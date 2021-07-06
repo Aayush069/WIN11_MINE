@@ -155,8 +155,14 @@ body{
 
 
 .chromeicon:hover{
-    transform:scale(1.1);
-}
+    background: linear-gradient(
+      to right bottom,
+      rgb(196, 195, 195),
+      rgba(240, 237, 237, 0.877)
+    ); 
+  }
+  
+  
 .chromebar{
     position: absolute;
     
