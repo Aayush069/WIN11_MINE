@@ -70,7 +70,7 @@ libicon.addEventListener('click',()=>{
 let chromeicon=document.getElementsByClassName('chromeicon')[0]
 let chromebar=document.getElementsByClassName('chromebar')[0]
 
-chromeicon.addEventListener('dblclick',()=>{
+chromeicon.addEventListener('click',()=>{
     if (chromebar.style.left == '150px'){
         chromebar.style.left = '-1600px'
     

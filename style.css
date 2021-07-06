@@ -166,14 +166,14 @@ body{
 .chromebar{
     position: absolute;
     
-    
+
     left: -1600px;
     width:100%;
     
 
     text-align:center;
     
-    transition: all 0.3s ease-in;
+    transition: all 0.1s ease-out;
 }
 .chromebar img{
     border-radius: 8px;
